@@ -121,7 +121,9 @@ router.get('/:id', async (req, res) => {
  *            duedate:
  *              type: string
  *              format: date
- *            completed:
+ *            childMarkComplete:
+ *              type: boolean
+ *            parentMarkComplete:
  *              type: boolean
  *    responses:
  *      201:
@@ -185,7 +187,9 @@ router.post('/', async (req, res) => {
  *            duedate:
  *              type: string
  *              format: date
- *            completed:
+ *            childMarkComplete:
+ *              type: boolean
+ *            parentMarkComplete:
  *              type: boolean
  *    responses:
  *      200:
