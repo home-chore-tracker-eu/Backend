@@ -93,7 +93,8 @@ for each of the API resource types (i.e. `User`, `Family`, `Child`, and `Chore`)
         title,
         description,
         duedate,
-        completed,
+        childMarkComplete,
+        parentMarkComplete,
         child_id,
         user_id
       }
@@ -110,7 +111,8 @@ for each of the API resource types (i.e. `User`, `Family`, `Child`, and `Chore`)
         title,
         description,
         duedate,
-        completed,
+        childMarkComplete,
+        parentMarkComplete,
         child_id,
         user_id
       }
@@ -134,7 +136,8 @@ for each of the API resource types (i.e. `User`, `Family`, `Child`, and `Chore`)
       title,
       description,
       duedate,
-      completed,
+      childMarkComplete,
+      parentMarkComplete,
       child_id,
       user_id
     }
@@ -152,7 +155,8 @@ for each of the API resource types (i.e. `User`, `Family`, `Child`, and `Chore`)
     title,
     description,
     duedate,
-    completed,
+    childMarkComplete,
+    parentMarkComplete,
     child_id,
     user_id
   },
@@ -161,7 +165,8 @@ for each of the API resource types (i.e. `User`, `Family`, `Child`, and `Chore`)
     title,
     description,
     duedate,
-    completed,
+    childMarkComplete,
+    parentMarkComplete,
     child_id,
     user_id
   }
@@ -177,7 +182,8 @@ for each of the API resource types (i.e. `User`, `Family`, `Child`, and `Chore`)
   name,
   description,
   duedate,
-  completed,
+  childMarkComplete,
+  parentMarkComplete,
   child_id,
   user_id
 }
