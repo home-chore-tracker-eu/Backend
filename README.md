@@ -15,6 +15,7 @@ chores in tact.
  - As a parent I can assign chores to my children
  - Add a due date as to when the chore needs to be completed.
  - Kids can use the app to check off whether or not the task has been completed.
+ - Parents can use the app to confirm whether or not the task has been indeed completed
 
 **Stretch Goal**
 

@@ -15,7 +15,8 @@ exports.up = function(knex) {
       .onDelete('CASCADE');
     table.string('title').notNullable();
     table.date('duedate');
-    table.boolean('completed').defaultTo(false);
+    table.boolean('childMarkComplete').defaultTo(false);
+    table.boolean('parentMarkComplete').defaultTo(null);
     table.string('description');
   });
 };
