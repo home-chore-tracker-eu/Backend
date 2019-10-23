@@ -22,6 +22,7 @@ const { generateToken, restricted } = require("../middleware");
  *            - name
  *            - email
  *            - password
+ *            - pictureURL
  *          properties:
  *            name:
  *              type: string
@@ -37,7 +38,7 @@ const { generateToken, restricted } = require("../middleware");
  *        schema:
  *          $ref: '#/definitions/User'
  *      400:
- *        description: returned if any of `email`, `name` or `password` are
+ *        description: returned if any of `email`, `name`, `pictureURL` or `password` are
  *                     missing
  *      500:
  *        description: returned in the event of a server error
