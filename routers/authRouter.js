@@ -29,6 +29,8 @@ const { generateToken, restricted } = require("../middleware");
  *              type: string
  *            password:
  *              type: string
+ *            pictureURL:
+ *              type: string
  *    responses:
  *      201:
  *        description: returns the newly-created user

@@ -9,6 +9,7 @@ const findUserById = async userId => {
   const [user] = await db('users').where({ id: userId })
   const families = await findFamilies(userId)
   if (user) {
+    delete user.password;
     return {
       ...user,
       families
@@ -20,7 +21,7 @@ const findUserById = async userId => {
  *
  * @param {Integer} userId id of the currently-authenticated user
  * @param {Object} updates object containing the desired properties of user to
- *                         update (any of `name`, `email`, or `password`)
+ *                         update (any of `name`, `email`, or `password`, or `picutreURL`)
  */
 const updateUser = async (userId, updates) => {
   await db('users').where({ id: userId }).update(updates)

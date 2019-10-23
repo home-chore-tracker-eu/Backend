@@ -21,6 +21,9 @@
  *      password:
  *        type: string
  *        description: The hashed password associated with this user.
+ *      pictureURL:
+ *        type: string
+ *        description: Provide a url to show as the logged account for the user
  *      jwt:
  *        type: string
  *        description: The current valid JSON Web Token (JWT) to be used in
