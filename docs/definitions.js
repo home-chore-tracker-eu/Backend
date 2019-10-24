@@ -114,7 +114,7 @@
  *        type: boolean
  *        description: Whether or not the child has completed the chore.
  *        default: false
-  *      parentdMarkComplete:
+  *      parentMarkComplete:
  *        type: boolean
  *        description: Whether or not this chore has been confirmed to be completed by the parent.
  *        default: null
